@@ -5,13 +5,22 @@ body{
     background-color: #232326;
     color: #f3f2f0;
 }
+.dark.nav-link{
+    color:#f3f2f0;
+}
+.light{
+    background-color: #f3f2f0;
+    color: #010101;
+}
+.light.nav-link{
+    color:#010101;
+}
 .wrapper{
     max-width: 1140px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-   
-}
+   }
 .name{
     font-size: 28px;
 }
@@ -23,10 +32,25 @@ body{
 margin-bottom: 120px;
 width: 100%;
 }
+header{
+    display:flex;
+    justify-content:space-between;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.nav{
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    display:flex
+}
+
 .nav-link{
     text-decoration: none;
     color: #f3f2f0;
     font-size: 14px;
+    padding-left:16px;
+    padding-right:16px;
 }
 .nav-link:hover{
     color:#d40000;
